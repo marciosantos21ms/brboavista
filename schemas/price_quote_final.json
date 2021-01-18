@@ -1,0 +1,49 @@
+[{
+		"description": "tube_assembly_id",
+		"mode": "REQUIRED",
+		"name": "tube_assembly_id",
+		"type": "STRING"
+	},
+	{
+		"description": "supplier",
+		"mode": "NULLABLE",
+		"name": "supplier",
+		"type": "STRING"
+	},
+	{
+		"description": "quote_date",
+		"mode": "NULLABLE",
+		"name": "quote_date",
+		"type": "DATE"
+	},
+	{
+		"description": "annual_usage",
+		"mode": "NULLABLE",
+		"name": "annual_usage",
+		"type": "NUMERIC"
+	},
+	{
+		"description": "min_order_quantity",
+		"mode": "NULLABLE",
+		"name": "min_order_quantity",
+		"type": "NUMERIC"
+	},
+	{
+		"description": "bracket_pricing",
+		"mode": "NULLABLE",
+		"name": "bracket_pricing",
+		"type": "BOOL"
+	},
+	{
+		"description": "quantity",
+		"mode": "NULLABLE",
+		"name": "quantity",
+		"type": "NUMERIC"
+	},
+	{
+		"description": "cost",
+		"mode": "NULLABLE",
+		"name": "cost",
+		"type": "NUMERIC"
+	}
+]

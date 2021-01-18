@@ -1,0 +1,49 @@
+[{
+		"description": "tube_assembly_id",
+		"mode": "REQUIRED",
+		"name": "tube_assembly_id",
+		"type": "STRING"
+	},
+	{
+		"description": "supplier",
+		"mode": "REQUIRED",
+		"name": "supplier",
+		"type": "STRING"
+	},
+	{
+		"description": "quote_date",
+		"mode": "REQUIRED",
+		"name": "quote_date",
+		"type": "STRING"
+	},
+	{
+		"description": "annual_usage",
+		"mode": "REQUIRED",
+		"name": "annual_usage",
+		"type": "STRING"
+	},
+	{
+		"description": "min_order_quantity",
+		"mode": "REQUIRED",
+		"name": "min_order_quantity",
+		"type": "STRING"
+	},
+	{
+		"description": "bracket_pricing",
+		"mode": "REQUIRED",
+		"name": "bracket_pricing",
+		"type": "STRING"
+	},
+	{
+		"description": "quantity",
+		"mode": "REQUIRED",
+		"name": "quantity",
+		"type": "STRING"
+	},
+	{
+		"description": "cost",
+		"mode": "REQUIRED",
+		"name": "cost",
+		"type": "STRING"
+	}
+]

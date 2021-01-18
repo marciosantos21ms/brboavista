@@ -1,0 +1,91 @@
+[{
+		"description": "component_id",
+		"mode": "REQUIRED",
+		"name": "component_id",
+		"type": "STRING"
+	},
+	{
+		"description": "component_type_id",
+		"mode": "NULLABLE",
+		"name": "component_type_id",
+		"type": "STRING"
+	},
+	{
+		"description": "type",
+		"mode": "NULLABLE",
+		"name": "type",
+		"type": "STRING"
+	},
+	{
+		"description": "connection_type_id",
+		"mode": "NULLABLE",
+		"name": "connection_type_id",
+		"type": "STRING"
+	},
+	{
+		"description": "outside_shape",
+		"mode": "NULLABLE",
+		"name": "outside_shape",
+		"type": "STRING"
+	},
+	{
+		"description": "base_type",
+		"mode": "NULLABLE",
+		"name": "base_type",
+		"type": "STRING"
+	},
+	{
+		"description": "height_over_tube",
+		"mode": "NULLABLE",
+		"name": "height_over_tube",
+		"type": "NUMERIC"
+	},
+	{
+		"description": "bolt_pattern_long",
+		"mode": "NULLABLE",
+		"name": "bolt_pattern_long",
+		"type": "NUMERIC"
+	},
+	{
+		"description": "bolt_pattern_wide",
+		"mode": "NULLABLE",
+		"name": "bolt_pattern_wide",
+		"type": "NUMERIC"
+	},
+	{
+		"description": "groove",
+		"mode": "NULLABLE",
+		"name": "groove",
+		"type": "BOOL"
+	},
+	{
+		"description": "base_diameter",
+		"mode": "NULLABLE",
+		"name": "base_diameter",
+		"type": "NUMERIC"
+	},
+	{
+		"description": "shoulder_diameter",
+		"mode": "NULLABLE",
+		"name": "shoulder_diameter",
+		"type": "NUMERIC"
+	},
+	{
+		"description": "unique_feature",
+		"mode": "NULLABLE",
+		"name": "unique_feature",
+		"type": "BOOL"
+	},
+	{
+		"description": "orientation",
+		"mode": "NULLABLE",
+		"name": "orientation",
+		"type": "BOOL"
+	},
+	{
+		"description": "weight",
+		"mode": "NULLABLE",
+		"name": "weight",
+		"type": "NUMERIC"
+	}
+]

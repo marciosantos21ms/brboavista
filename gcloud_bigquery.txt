@@ -1,0 +1,23 @@
+export PROJECT=marcio-pessoal
+export GCP_PATH=/home/marciosantos2109
+export BUCKET_DG=br-boa-vista-dt
+export BUCKET=br-boavista
+export SA=br-boavista-marcioteste@marcio-pessoal.iam.gserviceaccount.com
+export SA_FILE=$GCP_PATH/marcio-pessoal-8fd87b21cfd8.json
+export REPO=br-boavista-dev
+gcloud auth activate-service-account $SA --key-file=$SA_FILE --project=$PROJECT
+bq mk br_boavista_stage
+bq mk br_boavista_work
+bq mk br_boavista_target
+bq mk br_boavista_metrics
+bq load --source_format=CSV --skip_leading_rows=1 br_boavista_stage.csv_bill_of_materials gs://$BUCKET/bill_of_materials.csv $GCP_PATH/bill_of_materials.json
+bq load --source_format=CSV --skip_leading_rows=1 br_boavista_stage.csv_comp_boss gs://$BUCKET/comp_boss.csv $GCP_PATH/comp_boss.json
+bq load --source_format=CSV --skip_leading_rows=1 br_boavista_stage.csv_price_quote gs://$BUCKET/price_quote.csv $GCP_PATH/price_quote.json
+bq mk --table --description "Target table Bill of Materials" br_boavista_target.tbl_bill_of_materials $GCP_PATH/bill_of_materials_final.json
+bq mk --table --description "Target table Comp Boss" br_boavista_target.tbl_comp_boss $GCP_PATH/comp_boss_final.json
+bq mk --table --description "Target table Price Quote" br_boavista_target.tbl_price_quote $GCP_PATH/price_quote_final.json
+bq query --use_legacy_sql=false --location=US --display_name='Schedule Bill of Materials' --schedule='every 24 hours' --flagfile=query_bill_of_materials.sql
+bq query --use_legacy_sql=false --location=US --display_name='Schedule Comp Boss' --schedule='every 24 hours' --flagfile=query_comp_boss.sql
+bq query --use_legacy_sql=false --location=US --display_name='Schedule Price Quote' --schedule='every 24 hours' --flagfile=query_price_quote.sql
+
+

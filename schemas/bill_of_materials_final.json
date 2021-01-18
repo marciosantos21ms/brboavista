@@ -1,0 +1,103 @@
+[{
+		"description": "tube_assembly_id",
+		"mode": "REQUIRED",
+		"name": "tube_assembly_id",
+		"type": "STRING"
+	},
+	{
+		"description": "component_id_1",
+		"mode": "NULLABLE",
+		"name": "component_id_1",
+		"type": "STRING"
+	},
+	{
+		"description": "quantity_1",
+		"mode": "NULLABLE",
+		"name": "quantity_1",
+		"type": "NUMERIC"
+	},
+	{
+		"description": "component_id_2",
+		"mode": "NULLABLE",
+		"name": "component_id_2",
+		"type": "STRING"
+	},
+	{
+		"description": "quantity_2",
+		"mode": "NULLABLE",
+		"name": "quantity_2",
+		"type": "NUMERIC"
+	},
+	{
+		"description": "component_id_3",
+		"mode": "NULLABLE",
+		"name": "component_id_3",
+		"type": "STRING"
+	},
+	{
+		"description": "quantity_3",
+		"mode": "NULLABLE",
+		"name": "quantity_3",
+		"type": "NUMERIC"
+	},
+	{
+		"description": "component_id_4",
+		"mode": "NULLABLE",
+		"name": "component_id_4",
+		"type": "STRING"
+	},
+	{
+		"description": "quantity_4",
+		"mode": "NULLABLE",
+		"name": "quantity_4",
+		"type": "NUMERIC"
+	},
+	{
+		"description": "component_id_5",
+		"mode": "NULLABLE",
+		"name": "component_id_5",
+		"type": "STRING"
+	},
+	{
+		"description": "quantity_5",
+		"mode": "NULLABLE",
+		"name": "quantity_5",
+		"type": "NUMERIC"
+	},
+	{
+		"description": "component_id_6",
+		"mode": "NULLABLE",
+		"name": "component_id_6",
+		"type": "STRING"
+	},
+	{
+		"description": "quantity_6",
+		"mode": "NULLABLE",
+		"name": "quantity_6",
+		"type": "NUMERIC"
+	},
+	{
+		"description": "component_id_7",
+		"mode": "NULLABLE",
+		"name": "component_id_7",
+		"type": "STRING"
+	},
+	{
+		"description": "quantity_7",
+		"mode": "NULLABLE",
+		"name": "quantity_7",
+		"type": "NUMERIC"
+	},
+	{
+		"description": "component_id_8",
+		"mode": "NULLABLE",
+		"name": "component_id_8",
+		"type": "STRING"
+	},
+	{
+		"description": "quantity_8",
+		"mode": "NULLABLE",
+		"name": "quantity_8",
+		"type": "NUMERIC"
+	}
+]
