@@ -1,0 +1,5 @@
+# open terminal and access crontab jobs
+crontab -e
+
+# add this line, all day at midnight
+00 00 * * * /myDir/sendToCloud.py
