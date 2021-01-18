@@ -1,12 +1,1 @@
-{
-  "type": "service_account",
-  "project_id": "marcio-pessoal",
-  "private_key_id": "8fd87b21cfd851a2130241629f00429a8f7b9626",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCgMGXyfWVqC2J7\nXX7PYA/cjQ6HEA4upQHL+QC21H27t//fhf1HgmWtx65haNgNc3Mq+U0HRBewkJCS\n+aDmiolRKdJkp1p1qqUgK6mmunYSWinUaCg4meKU45fnzvb0LC2Jo/X0FC6YtpBW\n6Qle/vpUaoxUH12QzGAIGglz44aIxQS04MjF2mGXI9viYQ0yxIPFPBZBFbE1uhx9\nT6mFjkuEGjnCkplIp2oW8uFrpqbKoWtv9jvtVich4PCwpTe+VnvcwmrU/3xucguU\nkXHsJT0PnS33GJRVE3wPQkyji1XKxZxxnAK/4Asw4jG6hynvPZ583Ig4RwO5SDP8\ncZ57Yau5AgMBAAECggEAAhDEXGv1llhVpt+nNSXo58gUVsAUNLxZMXUmnJTmbE4Z\n29BFb6onZOYeciBY/9RmzjgsdXe77Uwx5wlBDpPyTmmmrjhSXufKQl0kblNOFtwS\n2RZWOsObiQiwZ94SmluloyuUw2wisoKmdLkYxIuEX2QH0ZpdbsgUhBTk3WRiyCmV\nR2hw+JDzIW8LLsrV0UFb/JnK8qfx+u3fx0mBR6UECbBa3uP3QoYSVox+u3M+96qX\n8pz/phHjt8RMo3CHqTQVcG4mSV0tqgqeodrYRnUllHInSAVIquoHhPIFvm75C5zJ\nIwU84wjWAePE0UnXallarEDJmEYtZQibDau/SnnUwQKBgQDbJHAta+s0vQb8qfqX\n1RlW4P05CxD22mqMy98MMHDHL/8tNHYAxjtnXvWgn9iTocvoA5kTNrHG0EGI7KQH\ndzcb3sEYL9JX2qU6yc92juox4/vaxKnPlMAuNGPII2E0kPT2/Y4Y+V8SwomKZqpN\nWLmRqzRMtRy2ebBqCdyl0P+p+QKBgQC7IZ871Vt7JdI2JtYvqVNmXKtai1Ed6WXK\nPRY3UkYk+mdY+VpQFXa39/+xR9EHO39A48cfYI6AnFfztCZrkkrELIfXAJMwP/M8\nn1e/hFWAgfyecDnfg7CK5KOdCjDTgfEJSBCEKz2kIbgH3GREJktkmi4UIuK0ltps\nN2Khk9B/wQKBgEc2eyG3jTKRLuESl7WZcWeTK5bK6tNdPPzOD4iVgUCpb0IQZzxv\nLsSzzhxJdYbcMDgQW0EsJ+9Uo8dMJy2p5wWuiI9EkxUrn0AQbtO3M5HM5X49JHWp\ngB5Dth1GqgL8DC7rTK7+8o9VGn8YR8VkzMDyosc+n7sIpnR/Ce30kfB5AoGAJWTK\nlQJFjY45O2j3U/7aE5JhC27bfsas+ITMc7GVIr6G+Fibm3UujASaq6pWMsPI4gai\nO7rnvvt+98wAAW7yUdE0M9qBjxq4WFzfA/5Ft7BB8scqSWffV2Ho7/ChYSKOL/Se\nmEqrvqieRbPctWGRn0DQBGYUN1INw6Itq2wGNgECgYBtz8//YpTvjeutPrrND1Ui\nu4+c31x4iATK2uhUR5slAsnN8sxdGh9aj79z+kZ7tTpIVUxklhL5WQRSRB3G1HIG\nWZJjubm2rJu5Du2VqIZtJQ+ny9D3vNNa66cILGZAr4pTW5RtFBU5WPSWu7AX+Rm/\ntR3iVCJmXd0h6NfrGeGXuA==\n-----END PRIVATE KEY-----\n",
-  "client_email": "br-boavista-marcioteste@marcio-pessoal.iam.gserviceaccount.com",
-  "client_id": "103041957079330697994",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/br-boavista-marcioteste%40marcio-pessoal.iam.gserviceaccount.com"
-}
+key
